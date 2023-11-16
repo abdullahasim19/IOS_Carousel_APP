@@ -29,7 +29,6 @@ struct DatabaseManager{
         loadItems()
         for i in 0..<arr.count{
             context.delete(arr[i])
-//            arr.remove(at: i)
         }
         saveItems()
     }
